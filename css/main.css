@@ -1,0 +1,154 @@
+.card-border {
+    border: solid 1px black;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: all ease-out 0.2s;
+}
+.card-border:hover {
+    transform: scale(1.05);
+}
+
+#coltours {
+    padding: 50 50;
+    background-color: rgb(203, 215, 219);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-register {
+    width: 400px;
+    background-color:lightgoldenrodyellow;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 7px 13px 37px #000;
+}
+.form-log-in {
+    width: 400px;
+    background-color:lightgoldenrodyellow;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background-color:lightpink;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid magenta;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.form-register .bottons {
+    width: 100%;
+    background: darkviolet;
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
+.form-log-in .bottons {
+    width: 100%;
+    background: darkviolet;
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
+
+.form-log-in-btn {
+    width: 30%;
+    background: rgb(240, 49, 87);
+    border: none;
+    padding: 8px;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+body {
+    background-color:rgb(203, 215, 219);
+}
+
+#Nosotros {
+    padding: 150px;
+    font-size: 18px;
+    text-align:center;
+}
+.parrafo {
+    padding: 20px;
+    text-align: justify;
+}
+
+
+#experiencias {
+    padding: 80px;
+    text-align:center;
+    margin: 20px;
+}
+
+figure {
+    margin: 10;
+    display: inline-block;
+    border: 5px;
+    position: relative;
+}
+
+figcaption {
+    color: white;
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2%;
+}
+
+figure:hover figcaption {
+    display: block;
+}
+
+#contactar {
+    padding: 150px;
+    text-align: justify;
+}
+#contacto {
+    padding: 10px;
+    text-align: center;
+}
+#reservas{
+    padding: 50px;
+}
+#llegada {
+    text-align: right;
+}
